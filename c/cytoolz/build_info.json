@@ -1,0 +1,17 @@
+{
+  "maintainer": "Keerthana GR",
+  "package_name": "cytoolz",
+  "github_url": "https://github.com/pytoolz/cytoolz",
+  "version": "0.12.0",
+  "wheel_build" : true,
+  "package_dir": "c/cytoolz",
+  "default_branch": "master",
+  "build_script": "cytoolz_ubi_9.7.sh",
+  "docker_build": false,
+  "validate_build_script": true,
+  "use_non_root_user": "false",
+  "*":{
+    "build_script":"cytoolz_ubi_9.7.sh"
+  }
+}
+
